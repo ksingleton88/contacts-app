@@ -1,0 +1,102 @@
+
+
+h1{
+	text-align: center;
+	font-size: 2em;
+}
+
+ul{
+	list-style: none;
+	text-align: left;
+}
+.formInfo{
+	padding-top: 2%; 
+	width: 100%;
+	margin: 0;
+}
+
+.contacts,
+.contactInfo{
+	float: right;
+	width: 15%; 
+	height: 300px; 
+	margin-right: 10%;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.contactInfo{
+	margin-left: 10%;
+	margin-top: -18%;
+}
+
+.contactInfoList{
+	list-style: none;
+	font-size: 1em;
+	width: 15%;
+	height: 300px;
+}
+
+.styleForm{
+	font-size: 1.6em;
+	width: 700px;
+	margin-left: 10%;
+
+}
+
+
+form{
+	display: inline-block;
+	text-align: left;
+}
+
+input#inputText,
+.state{
+	border: 4px solid #222;
+	font-size: 1.2em;
+}
+
+#inputText{
+	display: inline-block;
+	text-align: left;
+	height: 30px;
+}
+
+.firstName, 
+.lastName,
+.city{
+	width: 350px;
+}
+
+.phoneNumber{
+	width: 300px; 
+}
+
+.street{
+	width: 600px; 
+}
+
+.styleForm button[type="submit"] {
+    cursor:pointer;
+    width: 30%;
+    border:none;
+    background:#991D57;
+    background-image:linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+    background-image:-moz-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+    background-image:-webkit-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+    color:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+    border-radius:5px;
+}
+
+.info p{
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+
+.info{
+	margin-top: 30px; 
+}
